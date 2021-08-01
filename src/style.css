@@ -1,7 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: rgb(243, 242, 242);
-  background-image: url('images/wood.png')
+  background-color: rgb(221, 227, 241);
 }
 
 h1 {
@@ -39,9 +38,9 @@ li:first-letter {
   max-width: 600px;
   margin: 30px auto;
   border: 1px solid #dadde1;
-  border-radius: 10px;
-  box-shadow: 3px 3px 10px 10px ghostwhite;
-  background-color: lavender;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px 5px rgb(147, 147, 155);
+  background-color: rgb(247, 247, 247);
 }
 
 .weather-app {
@@ -83,6 +82,11 @@ a {
   margin-top: 20px;
   text-align: center;
   color: #000;
+  border-radius: 20px;
+  margin: 10px auto;
+  color: white;
+  background: #2574a8;
+  padding: 30px;
 }
 
 .weather-forecast-date {
@@ -101,8 +105,15 @@ a {
 .footer {
   display: block;
   font-size: 14px;
-  margin-top: 40px;
+  margin: 20px 0 20px;
   line-height: 18px;
   text-align: center;
   color: rgba(39, 33, 66, 0.4);
+}
+
+.float-left {
+  float: left;
+  box-sizing: border-box;
+  display: block;
+  margin-top: 10px;
 }
